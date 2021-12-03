@@ -1,5 +1,9 @@
-console.log("script from another file");
-// console.assert("enter yes or no");
-var userAnswer=prompt("enter yes or no");
-var welcomemsg="scripting works " + userAnswer;
-alert(welcomemsg);
+var btnTranslate=document.querySelector("#btn-translate");
+var txtInput=document.querySelector("#txt-input");
+console.log(txtInput);
+function clickHandler()
+{
+    console.log("clicked!!");
+    console.log("input",txtInput.value)
+};
+btnTranslate.addEventListener("click",clickHandler)
