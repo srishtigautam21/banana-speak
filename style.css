@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 body{
     font-family: 'Kalam', cursive;
+    margin:0%;
 }
 :root{
     --primarycolor:#FDE047;
